@@ -1,0 +1,143 @@
+body {
+  font-family: "Julius Sans One", sans-serif;
+  border: #88938a solid 3px;
+}
+
+h1 {
+  text-align: center;
+  border: none;
+}
+h2 {
+  background-color: #fff;
+  color: #a86666;
+}
+h3 {
+  font: #eee;
+}
+h4 {
+  display: grid;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 25px;
+  background-color: #88938a;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  align-self: center;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+a {
+  color: rgb(136, 136, 136);
+  font-size: 20px;
+  text-decoration: none;
+}
+.section-2 {
+  text-align: center;
+  color: #88938a;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  font-size: 35px;
+}
+
+.section-3 {
+  display: flex;
+  grid-row: auto;
+  justify-content: space-around;
+}
+a:hover {
+  background-color: #88938a;
+  color: #fff;
+}
+
+img {
+  border: 2px solid rgb(136, 136, 136);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.about-me {
+  display: grid;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 25px;
+  background-color: #88938a;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  align-self: center;
+}
+.tab {
+  text-indent: 40px;
+}
+.about-me-info {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.radio {
+  display: grid;
+  justify-content: space-around;
+  margin-bottom: 5em;
+  margin-top: 5em;
+  color: #88938a;
+}
+.contact {
+  display: grid;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 25px;
+  background-color: #88938a;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  align-self: center;
+}
+.contact2 {
+  display: grid;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 25px;
+  background-color: #88938a;
+}
+
+.form {
+  text-align: center;
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+button {
+  color: #88938a;
+  font-family: "Julius Sans One", sans-serif;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+input[type="radio"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: rgb(190, 121, 121);
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 1px solid white;
+}
+.icons {
+  text-align: center;
+  display: flex;
+  justify-items: center;
+}
+footer {
+  width: 100%;
+}
+.icons-2 {
+  text-align: center;
+  margin: 20px;
+  padding: 0;
+}
