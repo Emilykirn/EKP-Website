@@ -12,6 +12,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Cormorant+SC:wght@300&family=Licorice&family=Pinyon+Script&family=Sacramento&display=swap" rel="stylesheet">
 <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
 <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="asset/Main logo.jpg">
+
 <script src="https://kit.fontawesome.com/5da8a93997.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" href="styles.css">
@@ -26,14 +28,15 @@
 </head>
 <body>
     <!-- Main Logo Header -->
-    <h1>
+    <!-- <h1>
         <img src="asset//Main logo.jpg" alt="Emily Kirn Logo" width="280px" height="150px">
-    </h1>
+    </h1> -->
        <h2>
            <p class="nav">
-                <a href="#">Home</a>
+                
                 <a href="#about_me">About Me</a> 
                 <a href="#gallery">Gallery</a> 
+                <img src="asset//Main logo.jpg" alt="Emily Kirn Logo" width="280px" height="150px">
                 <a href="#contact">Contact</a> 
                 <a href="https://emilykirnphotography.pixieset.com/" target="_blank"> Pixieset</a>  
            </p>
@@ -77,7 +80,7 @@
     </div>
 
     <!-- Radio Set 1-->
-         <h4> About You </h4>
+         <h4 class="about-you"> About You </h4>
     <div class="radio">  
     
         <p>How frequently do you book a family session?</p>
@@ -133,11 +136,11 @@
             <img src="asset/0Z5A2547.jpg" height="350px" width="235px">
             <img src="asset/20191012-0Z5A3464.jpg" height="350px" width="235px">
             <img src="asset/0Z5A1473.jpg" height="350px" width="235px">       
-            <img src="asset/Amelia and Tina.jpeg" height="350px" width="235px">
-            <img src="asset/0Z5A2792.jpg" height="350px" width="425px">
-            <img src="asset/Prints-143.jpg" height="350px" width="235px">          
-            <img src="asset/0Z5A4242.jpg" height="350px" width="235px">
-            <img src="asset/Prints-175.jpg" height="350px" width="235px"> 
+            <img src="asset/Amelia and Tina.jpeg" height="350px" width="245px">
+            <img src="asset/0Z5A2792.jpg" height="350px" width="430px">
+            <img src="asset/Prints-143.jpg" height="350px" width="245px">          
+            <img src="asset/0Z5A4242.jpg" height="350px" width="245px">
+            <img src="asset/Prints-175.jpg" height="350px" width="244px"> 
             <img src="asset/0Z5A2349.jpg" height="350px" width="235px">
             <img src="asset/0Z5A9868.jpg" height="350px" width="235px">
             <img src="asset/0Z5A0275-Edit.jpg" height="350px" width="235px">
@@ -148,26 +151,38 @@
 <!-- Contact Form -->
 <div id="contact">
    <p class="contact">Contact</p>
-     <form class="form">
+     <!-- <form class="form">
         <label for="fname">First Name</label>
         <input type="text" id="fname" name="firstname">
 
         <label for="lname">Last Name</label>
         <input type="text" id="lname" name="lastname">
         
-        <label for="email">Please enter your email:</label>
+        <label for="email">Email</label>
         <input type="email" id="email"
        pattern=".+@gmail.com" size="30" required>
-        <button type="submit" onclick="alert('Thank You')" height="3em" width="3em">Submit  </button>
-      </form>
+      
+        <button type="submit" onclick="alert('Thank You')" height="3em" width="3em">Submit  </button> 
+      </form>-->
+      <form class="form" method="post" name="myemailform" action="form-to-email.php">
+
+        Name	<input type="text" name="name">
+        
+        Email Address	<input type="text" name="email">
+        
+        Message	<textarea name="message"></textarea>
+        
+       <button type="submit" value="Send Form" height="3em" width="3em">Submit </button>
+    </form>  
     </p>  
+    
    
 </div>
 
 <!-- Footer -->
 <footer>
   <div class="icons-2">
-    <p style="color: #88938a">Lets connect! </p>
+    <p style="color: #fff ">Lets connect! </p>
         <a href="https://www.facebook.com/emilykirnphotography" target="_blank"><button class="btn"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></button></a>
     
         <a href="https://www.instagram.com/emilykirnphoto/?hl=en" target="_blank"><button class="btn"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></button></a>

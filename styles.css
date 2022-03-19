@@ -1,6 +1,7 @@
 body {
   font-family: "Julius Sans One", sans-serif;
-  border: #88938a solid 3px;
+  border-bottom: #88938a solid 3px;
+  background-image: url(asset/BACKG\ YESS\ 3.jpeg);
 }
 
 h1 {
@@ -8,11 +9,10 @@ h1 {
   border: none;
 }
 h2 {
-  background-color: #fff;
   color: #a86666;
 }
 h3 {
-  font: #eee;
+  color: #eee;
 }
 h4 {
   display: grid;
@@ -20,23 +20,28 @@ h4 {
   color: #fff;
   font-size: 25px;
   background-color: #88938a;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   align-self: center;
+  /* h4 is for both Gallery and About You */
 }
 
 .nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  background-color: #fff;
-  margin-top: 1em;
-  margin-bottom: 1em;
+
+  margin-top: 2em;
+  margin-bottom: 2em;
   text-align: center;
 }
 a {
   color: rgb(136, 136, 136);
   font-size: 20px;
   text-decoration: none;
+}
+a:hover {
+  background-color: #88938a;
+  color: #fff;
 }
 .section-2 {
   text-align: center;
@@ -45,19 +50,12 @@ a {
   margin-bottom: 2em;
   font-size: 35px;
 }
-
 .section-3 {
   display: flex;
   grid-row: auto;
   justify-content: space-around;
 }
-a:hover {
-  background-color: #88938a;
-  color: #fff;
-}
-
 img {
-  border: 2px solid rgb(136, 136, 136);
   margin-top: 5px;
   margin-bottom: 5px;
   text-align: center;
@@ -68,22 +66,25 @@ img {
   color: #fff;
   font-size: 25px;
   background-color: #88938a;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   align-self: center;
 }
 .tab {
   text-indent: 40px;
 }
 .about-me-info {
-  padding-top: 3%;
-  padding-bottom: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+  padding-right: 2%;
+  color: #88938a;
 }
 .radio {
   display: grid;
   justify-content: space-around;
-  margin-bottom: 5em;
-  margin-top: 5em;
+  margin-bottom: 2em;
+  margin-top: 3em;
   color: #88938a;
 }
 .contact {
@@ -92,22 +93,16 @@ img {
   color: #fff;
   font-size: 25px;
   background-color: #88938a;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   align-self: center;
-}
-.contact2 {
-  display: grid;
-  justify-content: space-around;
-  color: #fff;
-  font-size: 25px;
-  background-color: #88938a;
 }
 
 .form {
   text-align: center;
-  margin-top: 6em;
-  margin-bottom: 6em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  color: #88938a;
 }
 button {
   color: #88938a;
@@ -136,9 +131,23 @@ input[type="radio"]:checked:after {
 footer {
   width: 100%;
 }
+
 .icons-2 {
   text-align: center;
   margin: 10px;
   padding: 0;
   justify-content: space-between;
+}
+input[type="text"] {
+  font-family: "Julius Sans One", sans-serif;
+  color: #88938a;
+}
+
+input[type="email"] {
+  font-family: "Julius Sans One", sans-serif;
+  color: #88938a;
+}
+textarea {
+  bottom: 0;
+  height: 35px;
 }
