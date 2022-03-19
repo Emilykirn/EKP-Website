@@ -33,6 +33,7 @@ h4 {
   margin-bottom: 2em;
   text-align: center;
   align-items: center;
+  color: rgb(190, 121, 121);
 }
 a {
   color: rgb(136, 136, 136);
@@ -41,6 +42,7 @@ a {
 }
 a:hover {
   background-color: #88938a;
+
   color: #fff;
 }
 .section-2 {
