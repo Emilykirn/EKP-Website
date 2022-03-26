@@ -3,7 +3,6 @@ body {
   border-bottom: #88938a solid 3px;
   background-image: url(asset/BACKG\ YESS\ 3.jpeg);
 }
-
 h1 {
   text-align: center;
   border: none;
@@ -25,7 +24,6 @@ h4 {
   align-self: center;
   /* h4 is for both Gallery and About You */
 }
-
 .nav {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -99,7 +97,6 @@ img {
   padding-bottom: 1em;
   align-self: center;
 }
-
 .form {
   text-align: center;
   margin-top: 2em;
@@ -133,7 +130,6 @@ input[type="radio"]:checked:after {
 footer {
   width: 100%;
 }
-
 .icons-2 {
   text-align: center;
   margin: 10px;
